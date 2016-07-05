@@ -101,7 +101,7 @@
         NSMutableURLRequest *request = [[NSMutableURLRequest alloc] init];
         
         
-        int categoryID = 9;
+        int categoryID = 3; // test commit
         NSString *post = [NSString stringWithFormat:@"CategoryId=%lu",(unsigned long)categoryID];
         
         NSData *postData = [post dataUsingEncoding:NSASCIIStringEncoding allowLossyConversion:YES];
